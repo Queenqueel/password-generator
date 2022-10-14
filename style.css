@@ -42,7 +42,7 @@ body {
 
 h1 {
     font-family: 'Codystar', sans-serif;
-    text-shadow: 0 0 5px #9900ffa9, 0 0 3px #cc00ff96;
+    text-shadow: 0 0 5px #00ffdda9, 0 0 3px #00e1ff96;
     font-size: 40px;
     color: #dfdfdf;
     margin-bottom: 15px;
@@ -67,7 +67,7 @@ span {
 .btn {
     width: 350px;
     height: 35px;
-    background: #ff00bfa9;
+    background: #00ffd5a9;
     font-size: 20px;
     font-weight: bold;
     border-radius: 10px;
