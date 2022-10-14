@@ -29,5 +29,5 @@ function generatePassword() {
 
 function copyPassword() {
     navigator.clipboard.writeText(novaSenha);
-    swal("Bom trabalho!", "Senha copiada com sucesso", "success");
+    swal("Copiado!", "Senha copiada com sucesso", "success");
 }

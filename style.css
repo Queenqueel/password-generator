@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Fredericka+the+Great&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee+Inline&family=Codystar:wght@300;400&family=Rubik+Burned&display=swap');
 
 * {
     margin: 0;
@@ -41,10 +41,11 @@ body {
 }
 
 h1 {
-    font-family: 'Bungee Inline', sans-serif;
-    text-shadow: 0 0 3px #9900ffa9, 0 0 5px #cc00ff96;
+    font-family: 'Codystar', sans-serif;
+    text-shadow: 0 0 5px #9900ffa9, 0 0 3px #cc00ff96;
     font-size: 40px;
     color: #dfdfdf;
+    margin-bottom: 15px;
 }
 
 span {
