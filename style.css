@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Fredericka+the+Great&family=Rubik+Glitch&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: #202020;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 500px;
+    height: auto;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    margin-top: 5%;
+    margin-bottom: 50PX;
+    border-radius: 5px;
+}
+
+.container-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 550px;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Bungee Inline', sans-serif;
+    text-shadow: 0 0 3px #9900ffa9, 0 0 5px #cc00ff96;
+    font-size: 40px;
+    color: #dfdfdf;
+}
+
+span {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 350px;
+    border-radius: 10px;
+    background: #dfdfdf;
+    height: 18px;
+    outline: none;
+    margin: 10px 0;
+}
+
+.btn {
+    width: 350px;
+    height: 35px;
+    background: #ff00bfa9;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    margin-top: 25px;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.container-password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 150px;
+    cursor: pointer;
+    background: #202020;
+    background: rgba(0, 0, 0, 0.01);
+}
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.password {
+    height: 50px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0c0c0c;
+    transition: transform 0.5s;
+}
+
+.password:hover {
+    transform: scale(1.05);
+}
+
+.tooltip {
+    position: relative;
+    width: 350px;
+    text-align: center;
+    top: 20px;
+    padding: 6px 8px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.hide {
+    display: none;
+}
+
+.container-password:hover .tooltip {
+    visibility: visible;
+    bottom: 50px;
+    opacity: 1;
+}
